@@ -1,0 +1,70 @@
+/* CSS Reset */
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin:0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color:white;
+    
+    
+} 
+.nav{
+    -webkit-user-select: none;
+    background-color: rgb(27, 25, 25);
+    margin: 0;  
+    position: fixed;
+    width:100vw;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+li{
+    display: inline-block;
+    padding:1em;
+    margin-left: -0.28em; 
+}
+/* li:hover:not(.btn){
+    background-color: rgb(89, 0, 255);
+} */
+.active{
+    background-color: rgb(89, 0, 255);
+}
+.active:hover{
+    background-color:  rgb(27, 25, 25);
+    color:white;
+}
+.logo{
+    font-size: 1em;
+    color:white;
+    text-align: center;
+}
+.btn{
+    float: right;
+    height:1em;     
+}
+button{
+    border: 0.15em solid rgb(89, 0, 255);
+    border-radius: 0.3em;
+    background-color: white;
+    color:rgb(89, 0, 255);
+    font-size: 0.8em;
+    padding: 0.5em 1.5em;
+    text-align: center;
+    margin-top: -0.6em;
+}
+button:hover{
+    background-color: rgb(89, 0, 255);
+    color:white;
+}
+.m:hover{                                       
+    background-color: rgb(89, 0, 255);
+}
