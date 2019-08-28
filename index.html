@@ -12,11 +12,30 @@
 <body>
   <nav>
     <ul class="nav">
-      <li class="active"><a href="https://google.com"><i class="fa fa-align-justify fa-1x "></i></a></li>
-      <li class="logo"><a  href="#">Yahoo !</a></li>
-      <li class="btn"><a href="https://login.yahoo.com"><button>Sign In</button></a></li>
-      <li class="btn"><a href="https://login.yahoo.com"><i  class="fa fa-envelope"></i>&nbsp; Mail</a></li>
+      <li class="active" onclick="openNav()"><a class="ac"><i class="fa fa-align-justify fa-1x "></i></a></li>
+      <li class="logo"><a class="ac" href="#">Yahoo !</a></li>
+      <li class="btn"><a class="ac" href="https://login.yahoo.com"><button>Sign In</button></a></li>
+      <li class="btn"><a class="ac" href="https://login.yahoo.com"><i  class="fa fa-envelope"></i>&nbsp; Mail</a></li>
     </ul>
   </nav>
+  <div id="mysidenav" class="sidenav">
+    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+    <a class="as" href="">Home</a>
+    <a class="as" href="https://in.news.yahoo.com/">News</a> 
+    <a class="as" href="https://cricket.yahoo.net">Cricket</a> 
+    <a class="as" href="https://in.style.yahoo.com">Lifestyle</a> 
+    <a class="as" href="https://finance.yahoo.com">Finance</a> 
+    <a class="as" href="https://in.style.yahoo.com/tagged/celebrity">Celebrity</a> 
+    <a class="as" href="https://in.style.yahoo.com/tagged/movies">Movie</a> 
+    <a class="as" href="https://www.yahoo.com/everything/ ">More..</a> 
+  </div>
+  <script>
+    function openNav(){
+      document.getElementById("mysidenav").style.marginLeft="0";
+    }
+    function closeNav(){
+      document.getElementById("mysidenav").style.marginLeft="-8em";
+    }
+  </script>
 </body>
 </html>

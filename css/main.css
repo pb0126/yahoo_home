@@ -13,8 +13,6 @@ ul{
     margin: 0;
     padding: 0;
     color:white;
-    
-    
 } 
 .nav{
     -webkit-user-select: none;
@@ -23,7 +21,7 @@ ul{
     position: fixed;
     width:100vw;
 }
-a{
+.ac{
     text-decoration: none;
     color:white;
 }
@@ -67,4 +65,45 @@ button:hover{
 }
 .m:hover{                                       
     background-color: rgb(89, 0, 255);
+}
+.sidenav{
+    margin-top: 2em;
+    display: block;
+    height: 100vw;
+    position: fixed;
+    background-color: black;
+    width: 4em;
+    font-size:1.5em !important;
+    padding: 2em;
+}
+.as{
+    -webkit-user-select: none;
+    text-decoration: none;
+    display: block;
+    color:white;
+    width: 6.89em;
+    margin-left: -1.89em;
+    text-align: center;
+    padding: 0.5em;
+}
+.as:hover{
+    background-color: rgb(119, 0, 255);
+    color:white;
+    padding:0.5em;
+    width:6.89em;
+}
+.closebtn{
+    position: absolute;
+    margin-top: -2em;
+    margin-left: 5em;
+    color:white;
+    text-decoration: none;
+    -webkit-user-select: none;
+}
+.closebtn:hover{
+    color:rgb(119, 0, 255);
+    
+}
+#mysidenav{
+    margin-left: -9em;
 }
