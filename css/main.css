@@ -107,3 +107,43 @@ button:hover{
 #mysidenav{
     margin-left: -9em;
 }
+.w{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 1.1em !important;
+}
+.w:hover{
+    color:rgb(119, 0, 255);
+}
+.mid{
+    position: absolute;   
+    top: 12em;  
+    right:29vw;  
+    padding:4em;      
+}
+.ser{
+    box-shadow: 0 8px 16px 0 rgba(105, 104, 104, 0.2), 0 6px 20px 0 rgba(197, 193, 193, 0.19);
+    padding: 0.5em;
+    width: 30em;
+    border-radius: 0.3em;
+    padding-left: 2.5em;
+}
+.ico{
+    position: absolute;
+    left:5.5vw;
+    top:4.5em;
+}
+textarea:focus, input:focus{
+    outline: 0;
+}
+button:focus, input:focus{
+    outline: 0;
+}
+.serbtn{
+    position: absolute;
+    right: 0.8em;
+    top:5.6em;
+}.btm{
+    background-color: black;
+}
