@@ -16,7 +16,7 @@
       <li class="logo"><a class="ac" href="#">Yahoo !</a></li>
       <li class="btn"><a class="ac" href="https://login.yahoo.com"><button>Sign In</button></a></li>
       <li class="btn"><a class="ac" href="https://login.yahoo.com"><i  class="fa fa-envelope "></i>&nbsp; Mail</a></li>
-      <li class="btn"><a class="w" href="#"><i class="fa fa-cloud "></i>&nbsp;31 C</a></li>
+      <li class="btn" onclick="openWtab()"><a class="w" href="#">31&#176;C&nbsp;&nbsp;<i class="fa fa-cloud "></i></a></li>
     </ul>
   </nav>
   <div id="mysidenav" class="sidenav">
@@ -36,22 +36,16 @@
       <input class="ser" type="text" placeholder="Search.." name="search">
       <button class="serbtn" type="submit"><i class="fa fa-search"></i></button>
     </form>
-    <!-- <div class="btm">
+    <div class="btm">
+
+    </div>
+    <div class="wtab" id="w-tab">
+      <i class="fa fa-map-pin lc ">&nbsp;Sydney</i><br/>
       <ul>
-        <li>f</li>
-        <li>f</li>
-        <li>f</li>
-        <li>f</li>
-        <li>f</li>
+        <li>31&#176;C &nbsp;<i class="fa fa-cloud"></i><h4>Scattered Clouds</h4></li>
       </ul>
-      <ul>
-        <li>f</li>
-        <li>f</li>
-        <li>f</li>
-        <li>f</li>
-        <li>f</li>
-      </ul>
-    </div> -->
+      <button title="Add City" class="btn-add" type="submit"><i class="fa fa-plus fa-1.5"></i></button>
+    </div>
   </div>
   <script>
     function openNav(){
@@ -59,6 +53,19 @@
     }
     function closeNav(){
       document.getElementById("mysidenav").style.marginLeft="-8em";
+    }
+    var i=0;
+    function openWtab(){
+      if(i==0){
+        console.log(i);
+        document.getElementById("w-tab").style.display="block";
+        i=1;
+        console.log(i);
+      }
+      else{
+        document.getElementById("w-tab").style.display="none";
+        i=0;
+        }	
     }
   </script>
 </body>
