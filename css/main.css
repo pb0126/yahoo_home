@@ -5,7 +5,9 @@
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-image: url(../1.jpg);
+    background-size: cover;
+    /* background-color: rgb(255, 255, 255); */
     margin:0;
 }
 ul{
@@ -16,7 +18,7 @@ ul{
 } 
 .nav{
     -webkit-user-select: none;
-    background-color: rgb(27, 25, 25);
+    background-color: rgba(0,0,0,0.4);
     margin: 0;  
     position: fixed;
     width:100vw;
@@ -87,7 +89,7 @@ button:hover{
     padding: 0.5em;
 }
 .as:hover{
-    background-color: rgb(119, 0, 255);
+    background-color: rgb(89, 0, 255);
     color:white;
     padding:0.5em;
     width:6.89em;
@@ -101,7 +103,7 @@ button:hover{
     -webkit-user-select: none;
 }
 .closebtn:hover{
-    color:rgb(119, 0, 255);
+    color:rgb(89, 0, 255);
     
 }
 #mysidenav{
@@ -114,26 +116,28 @@ button:hover{
     font-size: 1.1em !important;
 }
 .w:hover{
-    color:rgb(119, 0, 255);
+    color:rgb(89, 0, 255);
 }
 .mid{
     position: absolute;   
     top: 12em;  
     right:29vw;  
-    padding:4em;      
+    padding:4em; 
 }
 .ser{
-    box-shadow: 0 8px 16px 0 rgba(105, 104, 104, 0.2), 0 6px 20px 0 rgba(197, 193, 193, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(105, 104, 104, 0.2), 0 6px 20px 0 rgba(83, 83, 83, 0.19);
     padding: 0.5em;
-    width: 30em;
+    width: 35em;
+    height: 2em;
     border-radius: 0.3em;
-    padding-left: 2.5em;
+    padding-left: 3em;
     -webkit-user-select: none;
 }
 .ico{
     position: absolute;
     left:5.5vw;
-    top:4.5em;
+    top:4.8em;
+    -webkit-user-select: none;
 }
 textarea:focus, input:focus{
     outline: 0;
@@ -143,13 +147,111 @@ button:focus, input:focus{
 }
 .serbtn{
     position: absolute;
-    right: 0.8em;
-    top:5.6em;
-}.btm{
-    background-color: rgb(187, 187, 187);
+    right: -1.16em;
+    top:5.57em;
+    height: 3.5em;
+    width: 6em;
+    background-color: rgb(89, 0, 255);
+    color:white;
 }
+.btm-logo{
+    position: absolute;
+    top:-1.5em;
+    left: -7.5em;
+}
+.btm{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top:10em;
+    width: 37.5em;
+    min-height: 12em;
+    border-radius: 2em;  
+}
+.card-1{
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    width: 5em;
+    height:5em;
+    border-radius: 6em;
+    top:2.6em;
+    right:2em;
+    text-align:center;
+}
+.card-2{
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    width: 5em;
+    height:5em;
+    border-radius: 6em;
+    top:2.6em;
+    right:11em;
+    text-align:center;
+}
+.card-3{
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    width: 5em;
+    height:5em;
+    border-radius: 6em;
+    top:2.6em;
+    right:19.5em;
+    text-align:center;
+}
+.card-4{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 5em;
+    height:5em;
+    border-radius: 6em;
+    top:2.6em;
+    right:28.5em;
+    text-align:center;
+}
+li.card:hover{
+    background-color:rgba(0,0,0,0.9);
+    color: white;
+}
+.btm-ico{
+    position: absolute;
+    top: 1.2em;
+    left:1.3em;
+}
+.btm-ico-2{
+    position: absolute;
+    top: 1.2em;
+    left:1.35em;
+}
+.btm-head{
+    position: absolute;
+    top: 7.5em;
+    left: 2.1em;
+    font-size: 1em;
+}
+.btm-head-2{
+    position: absolute;
+    top: 7.5em;
+    left: 1.4em;
+    font-size: 1em;
+}
+.btm-head-1{
+    position: absolute;
+    top: 7.5em;
+    left: 2.52em;
+    font-size: 1em;
+}
+/* .news-a{
+    text-decoration:none;
+    color:white;
+}
+.news-b1{
+    border-width: 0.09em;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    top:7em;
+} */
 .wtab{
-    background-color:rgb(138, 136, 136);
+    background-color:rgb(189, 187, 187);
     position: absolute;   
     top: -8.5em;  
     right:-17vw;  
