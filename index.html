@@ -12,24 +12,27 @@
 </head>
 <body>
   <nav>
-    <ul class="nav">
-      <li class="active" onclick="openNav()"><a class="ac"><i class="fa fa-align-justify fa-1x "></i></a></li>
+    <ul class="nav" >
+      <li class="active" onclick="openNav()"><a class="ac"><i class="fa fa-bars fa-1x "></i></a></li>
       <li class="logo"><a class="ac" href="#">Yahoo !</a></li>
-      <li class="btn"><a class="ac" href="https://login.yahoo.com"><button>Sign In</button></a></li>
+      <li class="btn"><a class="ac" href="https://login.yahoo.com"><button class="btn-1">Sign In</button></a></li>
       <li class="btn"><a class="ac" href="https://login.yahoo.com"><i  class="fa fa-envelope "></i>&nbsp; Mail</a></li>
       <li class="btn" onclick="openWtab()"><a class="w" href="#">16&#176;C&nbsp;&nbsp;<i class="fa fa-cloud "></i></a></li>
     </ul>
   </nav>
   <div id="mysidenav" class="sidenav">
-    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
-    <a class="as" href="">Home</a>
-    <a class="as" href="https://in.news.yahoo.com/">News</a> 
-    <a class="as" href="https://cricket.yahoo.net">Cricket</a> 
-    <a class="as" href="https://in.style.yahoo.com">Lifestyle</a> 
-    <a class="as" href="https://finance.yahoo.com">Finance</a> 
-    <a class="as" href="https://in.style.yahoo.com/tagged/celebrity">Celebrity</a> 
-    <a class="as" href="https://in.style.yahoo.com/tagged/movies">Movie</a> 
-    <a class="as" href="https://www.yahoo.com/everything/ ">More..</a> 
+    <!-- <a  class="sidenav-logo" href="#">Yahoo !&nbsp;</a> -->
+    <div class="sidenav-div">
+      <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+      <a class="as" href="">Home</a>
+      <a class="as" href="https://in.news.yahoo.com/">News</a> 
+      <a class="as" href="https://cricket.yahoo.net">Cricket</a> 
+      <a class="as" href="https://in.style.yahoo.com">Lifestyle</a> 
+      <a class="as" href="https://finance.yahoo.com">Finance</a> 
+      <a class="as" href="https://in.style.yahoo.com/tagged/celebrity">Celebrity</a> 
+      <a class="as" href="https://in.style.yahoo.com/tagged/movies">Movie</a> 
+      <a class="as" href="https://www.yahoo.com/everything/ ">More..</a> 
+    </div>
   </div>
   <div class="mid">
     <form action="/action_page.php">
@@ -44,19 +47,19 @@
       <ul>
         <li class="card-1 card">
           <i class="fa fa-arrow-circle-o-right fa-2x btm-ico" onclick="openNav()" title="More"></i>
-          <h6 class="btm-head-1">More</h6>
+          <span class="btm-head-1">More</span>
         </li>
         <li class="card-2 card">
-          <i class="fa fa-instagram fa-2x btm-ico-2" title="Instagram"></i>
-          <h6 class="btm-head-2">Instagram</h6>
+          <i class="fa fa-btc fa-2x btm-ico-2" title="Yahoo Finance"></i>
+          <span class="btm-head-2">Finance</span>
         </li>
         <li class="card-3 card">
-          <i class="fa fa-google fa-2x btm-ico" title="Google"></i>
-          <h6 class="btm-head-3">Google</h6>
+          <i class="fa fa-newspaper-o fa-2x btm-ico-3" title="Yahoo News"></i>
+          <span class="btm-head-3">News</span>
         </li>
         <li class="card-4 card">
-          <i class="fa fa-yahoo fa-2x btm-ico" title="Yahoo"></i>
-          <h6 class="btm-head-4">Yahoo</h6>
+          <i class="fa fa-phone fa-2x btm-ico" title="Yahoo Mobile"></i>
+          <span class="btm-head-4">Moblie</span>
         </li>
       </ul>
     </div>
@@ -65,7 +68,7 @@
       <ul>
         <li>16&#176;C &nbsp;<i class="fa fa-cloud"></i><h4>Scattered Clouds</h4></li>
       </ul>
-      <button title="Add City" class="btn-add" type="submit"><i class="fa fa-plus fa-1.5"></i></button>
+      <button title="Add City" class="btn-add" type="submit"><a href="https://www.accuweather.com/en/in/ranikhet/191347/weather-forecast/191347"><i class="fa fa-plus fa-1.5"></i></a></button>
     </div>
   </div>
   <script>
